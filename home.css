@@ -1,0 +1,113 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    margin: auto;
+}
+
+.main-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-text {
+    font-size: 5rem;
+    margin-right: 4rem;
+    margin-bottom: 0;
+}
+
+.dadey{
+    width: 30%;
+}
+span{
+        transform: translateY(-150px);
+}
+
+@media (max-width:767px) and (min-width:375px) {
+    .main-text {
+        font-size: 3rem;
+        margin-left: 6rem;
+    }
+    .home{
+        min-height: 80vh;
+    }
+    .dadey{
+        margin-right: 35px;
+        width: 45%;
+    }
+    span{
+        transform: translateY(-60px);
+        margin-left: 20px;
+        font-size: .9rem;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 768px) and (min-width:360px){
+    .main-home {
+        width: 90%;
+    }
+}
+
+
+
+@media (max-height: 768px) and (min-width:360px){
+    .container .main-home {
+        min-height: 75vh;
+        padding: 2rem 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.container .home {
+    position: relative;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh)*100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    margin: auto;
+    color: #fff;
+    font-family: Raleway,sans-serif;
+    ;
+}
+.container .home .main-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    font-size: 4rem;
+    display: block;
+    font-weight: bold;
+}
+
+@media (max-height: 800px){
+    .container .home {
+        min-height: 75vh;
+        padding: 3rem 0;
+    }
+    } */

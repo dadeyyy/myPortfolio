@@ -1,0 +1,25 @@
+.project-title {
+    text-align: center;
+}
+
+.words {
+    font-size: 8rem;
+    text-align: center;
+    width: 100%;
+}
+
+.words {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px) and (min-width:375px) {
+    .words {
+        font-size: 3.5rem;
+    }
+}

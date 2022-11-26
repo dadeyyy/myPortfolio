@@ -1,0 +1,18 @@
+
+.about-me{
+    height: 100vh;
+}
+.about-me-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.about-me-text{
+    border: 2px solid white;
+    border-radius: 1.25rem;
+    width: 75%;
+    margin: auto;
+    padding:1rem;
+    font-size: 1rem;
+}
